@@ -6,4 +6,4 @@ services:
   ssti-demo:
     image: ghcr.io/authentura/ssti-demo
     ports:
-      - "3000:3001"
+      - "3001:3001"
