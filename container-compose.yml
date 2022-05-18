@@ -3,3 +3,7 @@ services:
     image: ghcr.io/authentura/sql-injection-demo
     ports:
       - "3000:3000"
+  ssti-demo:
+    image: ghcr.io/authentura/ssti-demo
+    ports:
+      - "3000:3001"
