@@ -1,0 +1,5 @@
+services:
+  sql-injection-demo:
+    image: ghcr.io/authentura/sql-injection-demo
+    ports:
+      - "3000:3000"
